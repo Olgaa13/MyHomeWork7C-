@@ -1,6 +1,6 @@
 ﻿// Zadacha47();
 // Zadacha50();
-Zadacha52();
+// Zadacha52();
 
 
 void Zadacha47()
@@ -87,9 +87,9 @@ void PrintArrayNew(int[,] array)
 }
 void FindElementValue(int[,] elementArray, int rows, int columns)
 {
-    Console.Write("Введите индекс строки от 0 до 7: ");
+    Console.Write("Введите индекс строки: ");
     int k = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите индекс столбца от 0 до 7: ");
+    Console.Write("Введите индекс столбца: ");
     int l = Convert.ToInt32(Console.ReadLine());
     if (k < rows & l < columns)
     { Console.WriteLine(elementArray[k, l]); }
